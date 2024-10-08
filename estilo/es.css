@@ -1,0 +1,201 @@
+/* 
+Selector{
+	
+	propiedad:valor;
+    
+}*/
+
+/* Selector universar es para formatear dejas todo en 0 */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   
+}
+
+/* Position relativo -> se me ajusta a la pantalla */
+header {
+    position: relative;
+    margin: 20px auto;
+    width: 1000px;
+    height: 120px;
+    background-color:#2e0037;
+}
+
+/* position -> absolute: control mas exacto donde queremos expecifircar las medidas fijas */
+
+#logo img{
+    position: absolute;
+    top: -10px;
+    left: 30px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.redes  {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    top: 42px;
+}
+
+#icono1  {
+    right: 140px;
+}
+
+#icono2 {
+    right: 85px;
+}
+
+#icono3 {
+    right: 30px;
+}
+
+nav {
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 48px;
+}
+
+
+
+/* Float left-> para que se me muetre uno al lado del otro  de derecha a izquierda*/
+.botones {
+    float: left;
+    width: 196px;
+    height: 48px;
+    background-image: linear-gradient(#2e0037, #570e47);
+    margin: 0 2px;
+    color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 50px;
+}
+
+#top {
+    position: relative;
+    margin: 20px auto;
+    width: 1000px;
+    height: 300px;
+}
+
+#top ul {
+    width: 1010px;
+    height: 300px;
+}
+
+#top ul li {
+    float: left;
+    margin: 2px;
+    width: 330px;
+    height: 00px;
+}
+
+section{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 453px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#izq li{
+    margin: 10px;
+    padding: 16px;
+    width: 145px;
+    background: #2e0037;
+    font-size: 15pxpx;
+}
+
+#izq li a{
+    color: aliceblue;
+
+}
+article{
+    width: 600px;
+    text-align: center;
+}
+
+
+
+#der{
+    padding: 1px;
+    width: 196px;
+    height: 300px;
+   
+} 
+
+#titulo_f{
+    padding: 9px;
+    margin-bottom:20px;
+    background-image: linear-gradient(#5c086d, #a11182);
+    color: aliceblue;
+    width: 196px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+
+#caja{
+    margin-top: 20px;
+}
+
+.f_caja{
+    margin-bottom: 6px;
+    padding: 8px;
+    width: 196px;
+    border: 1px solid #231942;
+
+
+
+}
+
+button{
+    width: 180px;
+    margin-top: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(#54225e, #570e47);
+    color: aliceblue;
+    font-size: 15px;
+    
+}
+
+
+
+
+footer{
+    position: relative;
+    margin: 20px auto;
+    width: 1000px;
+    height: 200px;
+    background-color: #2e0037;
+    color: aliceblue;
+}
+
+#footer_s{
+    padding: 40px;
+    text-align: center;
+}
+
+#footer_s h4{
+    text-align: center;
+  text-transform: uppercase;
+  color: #a50a83;
+}
+
+
+#footer_s p{
+    text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
